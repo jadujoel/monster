@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="EF4kOH" name="Monster" projectType="audioplug" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" displaySplashScreen="1" jucerFormatVersion="1"
+              companyName="Joel" pluginFormats="buildVST,buildVST3" bundleIdentifier="com.Joel.monster"
+              pluginCode="MoSt" pluginManufacturerCode="Joel" cppLanguageStandard="17">
+  <MAINGROUP id="HbYcHx" name="Monster">
+    <GROUP id="{A936B46C-1F81-451F-6FD2-C9B001CE2FFD}" name="Source">
+      <FILE id="EoiZX6" name="Background.h" compile="0" resource="0" file="Source/Background.h"/>
+      <FILE id="g4UQMe" name="Container.h" compile="0" resource="0" file="Source/Container.h"/>
+      <FILE id="T7kw2g" name="Debug.h" compile="0" resource="0" file="Source/Debug.h"/>
+      <FILE id="tEtfKu" name="DesignHelper.h" compile="0" resource="0" file="Source/DesignHelper.h"/>
+      <FILE id="rDIgAK" name="JollLabel.h" compile="0" resource="0" file="Source/JollLabel.h"/>
+      <FILE id="YS3GrZ" name="JollLookAndFeel.h" compile="0" resource="0"
+            file="Source/JollLookAndFeel.h"/>
+      <FILE id="nhHf5y" name="JollSlider.h" compile="0" resource="0" file="Source/JollSlider.h"/>
+      <FILE id="uQ0Yuy" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="d78BFr" name="phaseComponent.h" compile="0" resource="0"
+            file="Source/phaseComponent.h"/>
+      <FILE id="uelIuw" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="U2EUbG" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="MfjEsV" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="jCUBTS" name="Monster.cpp" compile="1" resource="0" file="Source/Monster.cpp"/>
+    </GROUP>
+    <GROUP id="{3A336498-0730-F2F3-89A8-41F49CAECC7D}" name="Resources">
+      <FILE id="SmQrUq" name="Roboto-Regular.ttf" compile="0" resource="1"
+            file="Resources/Roboto-Regular.ttf"/>
+      <FILE id="g8rmiR" name="Roboto-Thin.ttf" compile="0" resource="1" file="Resources/Roboto-Thin.ttf"/>
+    </GROUP>
+  </MAINGROUP>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1" JUCE_VST3_CAN_REPLACE_VST2="0"/>
+  <EXPORTFORMATS>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="Monster" winArchitecture="Win32"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="Monster" winArchitecture="Win32"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../../modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../../modules"/>
+        <MODULEPATH id="juce_core" path="../../modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../modules"/>
+        <MODULEPATH id="juce_events" path="../../modules"/>
+        <MODULEPATH id="juce_graphics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../modules"/>
+        <MODULEPATH id="juce_dsp" path="../../modules"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

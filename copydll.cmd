@@ -1,0 +1,2 @@
+copy "C:\Program Files (x86)\JUCE_Resources\juce_projects\Monster\Builds\VisualStudio2019\Win32\Release\VST\Monster.dll" "C:\Program Files (x86)\VstPlugins"
+copy "C:\Program Files (x86)\JUCE_Resources\juce_projects\Monster\Builds\VisualStudio2019\Win32\Release\VST3\Monster.vst3" "C:\Program Files (x86)\Common Files\VST3"
